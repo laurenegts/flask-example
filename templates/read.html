@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+
+<body>
+  <table border=1>
+    {% for rat in query %}
+    <tr>
+      <td> {{ rat.rat_name }} </td>
+      <td> {{ rat.rat_number }} </td>
+      <td> {{ rat.alive}} </td>
+    </tr>
+    {% endfor %}
+  </table>
+</body>
+
+</html>
